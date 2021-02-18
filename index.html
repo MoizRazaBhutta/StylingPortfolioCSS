@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/caa5f70aad.js" crossorigin="anonymous"></script>
+    
+    <style>
+        *{
+            margin: 0px;
+            padding:0px;
+            box-sizing:border-box;
+            font-family: 'Open Sans', sans-serif;
+        }
+        #masthead{
+            background-image:url("images/bg-masthead.jpg");
+            height:400px ;
+            width:100%;
+            object-fit: fill;
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        #masthead h1{
+            padding-top: 100px;
+            font-size: 50px;
+        }
+        #masthead button{
+            margin-top:10px;
+            color:white;
+            font-weight: bold;
+            background-color:rgba(10, 182, 224, 0.76);
+            padding:10px;
+            border-radius: 30px;
+        }
+        #body1{
+            height: 300px;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            width: 100%;
+           
+        }
+        #body1 h2{
+            font-weight: bolder;
+            padding-top: 40px;
+            padding-bottom: 10px;
+            
+        }
+        #body1 button{
+            color:white;
+            background-color: gray;
+            height:50px;
+            width:100px;
+            margin-top:20px;
+            text-align: center;
+            font-weight: bolder;
+          
+            }
+        #body2{
+            height: 400px;
+            width:100%;
+            background-color: cornflowerblue;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            padding-top: 20px;
+        }
+        #child{
+            display: flex;
+            justify-content: center;
+            padding-right:20px;
+            margin-top:50px;
+        }
+        #gchild{
+            height:50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color:white;
+            color: lightblue;
+            margin-left: 50px;
+            /* display: flex;
+            align-items: center;
+            justify-content: center; */
+            padding-left: 18px;
+            padding-top: 15px;
+            /* margin-left:50px; */
+        }
+        #child2{
+            margin-left: 100px;
+        }
+        #body3{
+            background-image:url("images/bg-callout.jpg");
+            height:300px ;
+            width:100%;
+            object-fit: fill;
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        #body4{
+            height:200px;
+            width: 100%;
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+        #body5{
+            height:400px;
+            /* background:orange; */
+            /* padding-left:80px;
+            padding-right:75px; */
+
+        }
+        #a{
+            display:flex;
+            height:200px;
+            width: 100%;
+            justify-content: center;
+        }
+        #b{
+            display: flex;
+            height:200px;
+            width:100%;
+            justify-content: center;
+        }
+        img{
+            object-fit: fill;
+            width: 500px;
+            height: 200px;
+        }
+        #c{
+            position: relative;
+            text-align: left;
+            color: white;
+            /* height: 200px; */
+            width:500px;
+        }
+        .bottom-left{
+           position: absolute;
+           bottom: 8px;
+           left: 16px;
+        }
+        #footer{
+            background-color: cadetblue;
+            margin-top: 40px;
+            margin-bottom:5px;
+            width: 100%;
+            height:200px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="masthead">
+    <center>
+        <h1> Styling Portfolio</h1>
+        <h3>A free Bootstrap Theme by EwigLife</h3>
+        <button>Find Out More</button>
+    </center>
+    </div>
+    <div id="body1">
+        <h2>Stylish portfolio is the perfect theme for your next project!</h2>
+        <p>This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash!</p>
+        <button>What We Offer</button>
+    </div>
+    <div id="body2">
+        <p style="color:rgba(251, 255, 0, 0.986); font-weight:bold;">Services</p>
+        <h1 style="color: white;font-weight: bolder;font-size: 40px;margin-top:10px;">What We Offer</h1>
+        <div id="child">
+            
+    
+            <div id="child2"><div id="gchild"><i class="far fa-smile"></i></div><h1 style="font-weight:bold;font-size: 25px;text-align: center;color: white;">Responsive</h1><p style="font-size: 13px;text-align: center;color: white;">Looks great on any screen size!</p></div>
+            <div id="child2"><div id="gchild"><i class="fas fa-pencil-alt"></i></div><h1 style="font-weight:bold;font-size: 25px;text-align: center;color:white">Responsive</h1><p style="font-size: 13px;text-align: center;color: white;">Looks great on any screen size!</p></div>
+            <div id="child2"><div id="gchild"><i class="far fa-thumbs-up"></i></div><h1 style="font-weight:bold;font-size: 25px;text-align: center;color:white">Responsive</h1><p style="font-size: 13px;text-align: center;color: white;">Looks great on any screen size!</p></div>
+            <div id="child2"><div id="gchild"><i class="fas fa-mobile"></i></div><h1 style="font-weight:bold;font-size: 25px;text-align: center;color: white;">Responsive</h1><p style="font-size: 13px;text-align: center;color: white;">Looks great on any screen size!</p></div>
+
+        </div>
+    </div>
+    <div id="body3">
+        <center>
+            <h1 style="font-size: 40px;padding-top: 70px;font-weight: bold;">Welcome To Your <br> Next Website</h1>
+            <button style=" margin-top:10px;
+            color:white;
+            font-weight: bold;
+            background-color:rgba(10, 182, 224, 0.76);
+            padding:10px;">Download Now</button>
+        </center>
+    </div>
+    <div id="body4">
+        <center>
+            <p style="color:orange;font-size: 10px;">Portfolio</p>
+            <h2 style="margin-top: 10px;font-weight: bold;">Recent Project</h2>
+        </center>
+    </div>
+    <div id="body5">
+        <div id="a">
+            <div id="c">
+                <img src="images/portfolio-1.jpg" alt="">
+                <div class="bottom-left">
+                    <h2>Stationary</h2>
+                    <p  style="font-size: 10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium sit ad eius id pariatur!</p>
+                </div>
+            </div>
+            <div id="c">
+                <img src="images/portfolio-2.jpg" alt="">
+                <div class="bottom-left">
+                    <h2>Stationary</h2>
+                    <p  style="font-size: 10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium sit ad eius id pariatur!</p>
+                </div>
+            </div>
+        </div>
+        <div id="b">
+            <div id="c">
+                <img src="images/portfolio-3.jpg" alt="">
+                <div class="bottom-left">
+                    <h2>Stationary</h2>
+                    <p  style="font-size: 10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium sit ad eius id pariatur!</p>
+                </div>
+            </div>
+            <div id="c">
+                <img src="images/portfolio-4.jpg" alt="">
+                <div class="bottom-left">
+                    <h2>Stationary</h2>
+                    <p  style="font-size: 10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium sit ad eius id pariatur!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <center>
+            <h2 style="padding-top: 50px;color: white;padding-bottom: 50px;">The Button below are impossible to resist</h2>
+            <button style="margin-right: 10px;background-color: white;color: black;height:40px;width:100px">Click ME</button>
+            <button style="background-color: black;color: white;height:40px;width:100px">Look at ME</button>
+        </center>
+    </div>
+    <center>
+        <p style="color:blue;font-size: 10px;">Copyright @ Your Website 2019</p>
+    </center>
+</body>
+</html>
